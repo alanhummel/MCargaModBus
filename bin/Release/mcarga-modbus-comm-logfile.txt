@@ -1,0 +1,137 @@
+[Header] 2017-06-21 11:32:47,557 [1] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 11:32:47,566 [1] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 11:32:47,724 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 11:33:02,566 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 11:33:10,592 [1] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 11:33:10,612 [1] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 11:33:10,789 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 11:33:21,824 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 11:34:18,670 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:34:19,992 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:34:20,132 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:35:20,385 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:35:21,426 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:35:21,448 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:36:22,376 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:36:26,374 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 192.168.2.13:502
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:36:26,399 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:37:27,689 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:37:28,714 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:37:28,739 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:38:30,643 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:38:31,682 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:38:31,714 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:39:32,830 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:39:33,887 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:39:33,897 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:40:34,716 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:40:36,018 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:40:36,028 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:41:36,201 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:41:37,220 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:41:37,238 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:42:22,227 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 11:42:32,225 [1] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 11:42:32,253 [1] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 11:42:32,570 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 11:42:46,277 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 11:54:48,623 [10] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 11:54:48,638 [10] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 11:54:48,836 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 11:55:48,853 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:55:50,025 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:55:50,042 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:56:50,058 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:56:51,097 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:56:51,115 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 11:57:51,185 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 11:57:52,239 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 11:57:52,258 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+[Header] 2017-06-21 12:00:50,691 [10] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 12:00:50,711 [10] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 12:00:50,862 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 12:00:56,151 [10] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 12:01:22,659 [1] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 12:01:22,675 [1] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 12:01:22,775 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 12:02:22,806 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:02:23,847 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:02:23,856 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:03:23,867 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:03:24,880 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 192.168.2.13:502
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:03:24,893 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:04:24,913 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:04:25,927 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:04:25,942 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:05:25,961 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:05:26,978 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:05:26,983 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:06:26,994 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:06:28,014 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:06:28,038 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:07:28,056 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:07:29,068 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 192.168.2.13:502
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:07:29,080 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:08:29,093 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:08:30,106 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 192.168.2.13:502
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:08:30,117 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:09:30,134 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:09:31,149 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:09:31,162 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:10:31,178 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Checando base após 60 segundos...
+2017-06-21 12:10:32,191 [Principal] ERROR - MCargaModBus.CheckAndTransmit - Erro ao acessar o ModBus: EasyModbus.Exceptions.ConnectionException: connection timed out
+   at EasyModbus.ModbusClient.Connect()
+   at MCargaModBus.CheckAndTransmit.escreverModBus(List`1 listaTemperaturas) in c:\Projects\HRM\ModBus\MCargaModBus\CheckAndTransmit.cs:line 291
+2017-06-21 12:10:32,224 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Temperaturas Acessadas da base: [20,22,28,24,30]
+2017-06-21 12:10:50,309 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] [Header] 2017-06-21 12:26:02,810 [10] INFO  - MCargaModBus.CheckAndTransmit - Aplicação [MCargaModBus] inicializada.
+2017-06-21 12:26:02,830 [10] INFO  - MCargaModBus.CheckAndTransmit - Iniciando processo de checagem & transmissão para cada 60 segundos.
+2017-06-21 12:26:02,933 [Principal] INFO  - MCargaModBus.CheckAndTransmit - Principal - base encontrada, utilizando a existente.
+2017-06-21 12:26:32,530 [10] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] 

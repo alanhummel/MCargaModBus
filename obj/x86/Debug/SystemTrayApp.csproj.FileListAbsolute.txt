@@ -1,0 +1,8 @@
+C:\Projects\HRM\ModBus\SystemTrayApp\bin\Debug\SystemTrayApp.exe
+C:\Projects\HRM\ModBus\SystemTrayApp\bin\Debug\SystemTrayApp.pdb
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.csprojResolveAssemblyReference.cache
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.AboutBox.resources
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.Properties.Resources.resources
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.csproj.GenerateResource.Cache
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.exe
+C:\Projects\HRM\ModBus\SystemTrayApp\obj\x86\Debug\SystemTrayApp.pdb

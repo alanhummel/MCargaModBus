@@ -1,0 +1,42 @@
+Table: BancoCircuitoMaxTemp
+
+Field: BancoNumero
+Type: INTEGER
+
+Field: CircuitoNumero
+Type: INTEGER
+
+Field: TemperaturaMaxCircuito
+Type: INTEGER
+
+CREATE TABLE userdata (
+  userid INT,
+  userdataid INT,
+  info char(200),
+  primary key (userid, userdataid)
+);
+
+CREATE DATABASE MCarga;
+USE Mcarga;
+CREATE TABLE BancoCircuitoMaxTemp (BancoNumero INT NOT NULL,
+									CircuitoNumero INT NOT NULL,
+									TemperaturaMaxCircuito INT NOT NULL,
+									primary key (BancoNumero, CircuitoNumero)
+								  );
+Use MCarga;									
+INSERT INTO BancoCircuitoMaxTemp
+	VALUES (1,1,20);
+	
+Use MCarga;	
+SELECT * FROM BancoCircuitoMaxTemp;
+
+Use MCarga;
+SELECT * 
+	FROM BancoCircuitoMaxTemp 
+    WHERE BancoNumero=1 AND CircuitoNumero= 1;
+	
+Use MCarga;
+SHOW TABLES LIKE 'BancoCircuitoMaxTemp';
+
+Use MCarga;
+DROP TABLE BancoCircuitoMaxTemp;

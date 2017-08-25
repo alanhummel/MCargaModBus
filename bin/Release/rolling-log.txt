@@ -1,0 +1,2 @@
+[Header] 2017-06-23 00:38:56,166 [1] INFO  - MCargaModBus.CheckAndTransmit - Principal terminada normalmente.
+[Footer] 

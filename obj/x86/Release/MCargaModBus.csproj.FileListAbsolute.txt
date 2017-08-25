@@ -1,0 +1,14 @@
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\MCargaModBus.exe.config
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\MCargaModBus.exe
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\MCargaModBus.pdb
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\EasyModbus.dll
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\log4net.dll
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\MySql.Data.dll
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\SQLite.NET.dll
+C:\Projects\HRM\ModBus\MCargaModBus\bin\Release\log4net.xml
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.AboutBox.resources
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.Properties.Resources.resources
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.csproj.GenerateResource.Cache
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.exe
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.pdb
+C:\Projects\HRM\ModBus\MCargaModBus\obj\x86\Release\MCargaModBus.csprojResolveAssemblyReference.cache
